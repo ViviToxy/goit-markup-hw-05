@@ -920,10 +920,6 @@ img{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-checkbox-icon {
-    opacity: 0;
-}
-
 .modal-form-agreement-desc {
     color: var(--lightslate);
     font-size: 12px;
