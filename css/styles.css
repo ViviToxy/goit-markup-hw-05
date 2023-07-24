@@ -773,7 +773,6 @@ img{
 
 .modal-caption{
     display: block;
-    margin-top: 72px;
     width: 360px;
     color: var(--bg-color);
     text-align: center;
@@ -781,10 +780,6 @@ img{
     line-height: 1.5;
     letter-spacing: 0.32px;
     margin-bottom: 16px;
-}
-
-.modal-form{
-    padding: 72px 24px 24px 24px;
 }
 
 .modal-input-container{
@@ -899,13 +894,14 @@ img{
     color: var(--lightslate);
 }
 
-.modal-form-checkbox:checked + .modal-form-custom-checkbox {
-    background-color: var(--secondary-accent-color);
+.modal-form-checkbox:checked + .modal-form-checkbox-label 
+.modal-form-custom-checkbox {
+    background-color:var(--secondary-accent-color) ;
     border: none;
     fill: var(--secondary-white-color);
 }
 
-.modal-form-checkbox:checked+.modal-form-custom-checkbox 
+.modal-form-checkbox:checked + .modal-form-custom-checkbox 
 .modal-form-checkbox-icon{
     opacity: 1;
 }
@@ -941,38 +937,6 @@ img{
     text-decoration: underline;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Overlay text */
 
 .overlay-text{
@@ -1006,36 +970,5 @@ img{
 .card-link:focus .overlay{
     transform: translateY(0%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
