@@ -532,6 +532,7 @@ img{
 }
 
 .footer-form-icon{
+    margin-left: 16px;
     position: absolute;
     right: 24px;
     bottom: 8px;
@@ -725,7 +726,7 @@ img{
 
     width: 408px;
     min-height: 584px;
-    padding: 0 24px 24px 24px;
+    padding: 72px 24px 24px 24px;
 
     flex-shrink: 0;
     border-radius: 4px;
@@ -779,7 +780,7 @@ img{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .modal-form{
